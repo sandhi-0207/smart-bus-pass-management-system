@@ -1,7 +1,7 @@
 const User = require("../models/User");
 const Application = require("../models/Application");
 const BusPass = require("../models/BusPass");
-const Bus = require("../models/Bus");
+const Bus = require("../models/bus");
 
 const getAdminDashboard = async (req, res) => {
     try {
